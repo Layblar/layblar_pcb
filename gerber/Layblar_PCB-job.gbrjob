@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "(6.0.11-0)"
     },
-    "CreationDate": "2023-11-26T18:13:28+01:00"
+    "CreationDate": "2023-12-17T12:15:40+01:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -42,16 +42,6 @@
     {
       "Path": "Layblar_PCB-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "Layblar_PCB-GND.gbr",
-      "FileFunction": "Copper,L2,Inr",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "Layblar_PCB-PWR.gbr",
-      "FileFunction": "Copper,L3,Inr",
       "FilePolarity": "Positive"
     },
     {

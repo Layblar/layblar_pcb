@@ -2160,6 +2160,9 @@
     (path "/b1457e86-bec4-4325-9d53-bfc7948435a7/8fe9f04d-8c23-4749-b4e3-5cb463175c94"
       (reference "#PWR05") (unit 1) (value "GND") (footprint "")
     )
+    (path "/b1457e86-bec4-4325-9d53-bfc7948435a7/7aa17f3c-91d4-42cd-aec8-5aa2b238b84a"
+      (reference "#PWR06") (unit 1) (value "GND") (footprint "")
+    )
     (path "/b237b329-bf1a-488d-bb51-b05b7e22e253"
       (reference "#PWR011") (unit 1) (value "GND") (footprint "")
     )
@@ -2196,6 +2199,9 @@
     (path "/fa7ce6d3-d6df-4a4e-992b-ded6ec99eead"
       (reference "C6") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
+    (path "/b1457e86-bec4-4325-9d53-bfc7948435a7/82c1e898-6262-4fd6-8164-c13dc16f388b"
+      (reference "C7") (unit 1) (value "100u") (footprint "Capacitor_SMD:CP_Elec_6.3x7.7")
+    )
     (path "/371984a7-52bd-4e4d-ae89-644603f08677/14323d7e-0552-489c-81dc-8361125b9f49"
       (reference "C10") (unit 1) (value "2u2") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
@@ -2210,9 +2216,6 @@
     )
     (path "/06feb3ee-538d-4aef-9757-5dbef52aca91"
       (reference "D1") (unit 1) (value "D_Schottky") (footprint "Diode_SMD:D_TUMD2")
-    )
-    (path "/371984a7-52bd-4e4d-ae89-644603f08677/0d82c9c9-8e13-45d5-9870-88a4730acab7"
-      (reference "D2") (unit 1) (value "LED_GREEN_3V3") (footprint "LED_SMD:LED_1206_3216Metric")
     )
     (path "/60da01a6-9c6d-49e3-b8d3-a5eb05e8909e"
       (reference "D3") (unit 1) (value "LED_BLUE") (footprint "LED_SMD:LED_1206_3216Metric")
@@ -2239,7 +2242,7 @@
       (reference "R3") (unit 1) (value "470") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/b1457e86-bec4-4325-9d53-bfc7948435a7/98e6d4cc-952a-4cd8-a9b9-edcb7300394e"
-      (reference "R4") (unit 1) (value "30k") (footprint "Resistor_SMD:R_0805_2012Metric")
+      (reference "R4") (unit 1) (value "4k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/caffdf6a-27b5-4979-9fa0-0d20193c1e77"
       (reference "R5") (unit 1) (value "22") (footprint "Resistor_SMD:R_0805_2012Metric")
@@ -2264,9 +2267,6 @@
     )
     (path "/d95aaccf-d339-4c51-b4d4-396e99c89464"
       (reference "R21") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
-    )
-    (path "/371984a7-52bd-4e4d-ae89-644603f08677/4d602f36-5244-4564-94de-21fb89675842"
-      (reference "R22") (unit 1) (value "470") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/ebc781d9-fdb5-48e6-9c58-be8f372edd93"
       (reference "R28") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric")
