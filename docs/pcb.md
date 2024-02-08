@@ -12,11 +12,30 @@ Layblar has its own PCB for handling all the read routines of the smart meter. T
 
 The assembled PCB encountered issues, as the microcontroller could not receive correct messages from the M-Bus Transceiver. Upon inspecting the communication via an oscilloscope, only fragments of the expected frame were transmitted. This issue could be attributed to a voltage drop. After disconnecting pin VDD of the M-Bus Transceiver from the 3.3V power supply, the communication worked perfectly. The M-Bus Transceiver is now solely powered by the M-Bus communication from the smart meter, without relying on the 5V-to-3V3 converter powered by USB.
 
+## LCSC part numbers
+
+For easier ordering, here some important LCSC part numbers as orientation.
+
+| LCSC                   | Part             | Notes             |
+| ---------------------- | ---------------- | ----------------- |
+| C2934569               | ESP32-C3-Mini    |                   |
+| C118233                | SE5218           |                   |
+| C144285                | Schottky Diode   |                   |
+| C17313                 | 500mA Fuse       | may not nessesary |
+| 95501-2661 (molex No.) | RJ12 Connector   |                   |
+| C2988369               | Type-C Connector |                   |
+| C412375                | Button Switch    |                   |
+
 # Changelog
 
 ## Contributors
 
 - [André Maurer](https://github.com/bouncecom)
+
+## 2024-02-08
+
+- Fixed R4 value
+- Added LCSC part numbers
 
 ## 2024-01-24
 
